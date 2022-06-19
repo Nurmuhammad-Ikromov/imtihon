@@ -439,8 +439,18 @@ img {
 }
 
 .navbar__item--active {
+  position: relative;
   margin-right: 0;
   margin-left: 10px;
+}
+
+.navbar__item--active::before {
+  content: '';
+  position: absolute;
+  top: 28px;
+  width: 153px;
+  height: 1px;
+  border: 1px solid #333;
 }
 
 .navbar__link {
