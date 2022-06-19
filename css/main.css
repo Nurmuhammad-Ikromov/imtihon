@@ -527,6 +527,7 @@ img {
 @media only screen and (max-width: 520px) {
   .hero {
     padding-top: 440px;
+    border: none;
   }
   .hero::after {
     width: 290px;
@@ -626,6 +627,10 @@ img {
   }
   .info__list {
     display: none;
+  }
+  .carousel-item {
+    padding: 15px;
+    background-color: #F5F5F5;
   }
 }
 

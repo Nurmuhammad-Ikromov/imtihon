@@ -55,6 +55,7 @@
 @include max-width(520px) {
 	.hero {
 		padding-top: 440px;
+		border: none;
 	}
 	.hero::after {
 		width: 290px;

@@ -1,7 +1,5 @@
-.info {
-}
-.container {
-}
+
+
 .info__inner {
     padding: 70px 0;
 }
@@ -67,5 +65,10 @@
 
 	.info__list{
 		display: none;
+	}
+
+	.carousel-item{
+		padding: 15px;
+		background-color: #F5F5F5;
 	}
 }
