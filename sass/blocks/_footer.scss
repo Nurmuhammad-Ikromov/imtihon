@@ -28,6 +28,20 @@
 	margin-bottom: 30px;
 }
 
+.site-footer__btn
+{
+	width: 100%;
+	max-width: 260px;
+	padding: 12px 20px;
+	background-color: #ea625c;
+	border: none;
+	font-weight: 700;
+	font-size: 18px;
+	line-height: 150%;
+	text-align: center;
+	text-transform: uppercase;
+	color: #ffffff;
+}
 
 @include max-width(520px) {
 	.site-footer{
@@ -50,5 +64,9 @@
 
 	.site-footer__btn{
 		max-width: 190px;
+		max-width: 190px;
+        padding: 9.5px ;
+        font-size: 14px;
+        line-height: 21px;
 	}
 }

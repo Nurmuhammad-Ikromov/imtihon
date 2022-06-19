@@ -399,7 +399,7 @@ img {
   padding: 0 20px;
 }
 
-.header__inner {
+.site-header__inner {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -543,7 +543,7 @@ img {
     width: 290px;
     height: 378px;
     top: 30px;
-    background-image: url("../../images/intro-bg.jpg");
+    background-image: url("../images/intro-bg.jpg");
     left: calc(50% - 101px);
     background-size: cover;
   }
@@ -662,9 +662,42 @@ img {
   max-width: 490px;
 }
 
+.band__title {
+  font-weight: 700;
+  font-size: 50px;
+  line-height: 120%;
+  color: #000;
+  margin: 0;
+  margin-bottom: 30px;
+}
+
+.band__text {
+  font-size: 16px;
+  line-height: 150%;
+  color: #777;
+  margin: 0;
+  margin-bottom: 30px;
+  padding-left: 40px;
+  border-left: 3px solid #888;
+}
+
 .band__img {
   width: 381px;
   height: 572px;
+}
+
+.band__btn {
+  width: 100%;
+  max-width: 260px;
+  padding: 12px 20px;
+  background-color: #ea625c;
+  border: none;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 150%;
+  text-align: center;
+  text-transform: uppercase;
+  color: #ffffff;
 }
 
 @media only screen and (max-width: 520px) {
@@ -680,10 +713,23 @@ img {
     border-radius: 20px;
     margin-bottom: 41px;
   }
+  .band__title {
+    font-size: 46px;
+  }
+  .band__text {
+    font-size: 14px;
+  }
+  .band__btn {
+    max-width: 190px;
+    max-width: 190px;
+    padding: 9.5px;
+    font-size: 14px;
+    line-height: 21px;
+  }
 }
 
 .site-footer {
-  background-image: url("../../images/footer-bgi.jpg");
+  background-image: url("../images/footer-bgi.jpg");
   background-repeat: no-repeat;
   background-size: 100% 830px;
   padding: 240px 0;
@@ -714,6 +760,20 @@ img {
   margin-bottom: 30px;
 }
 
+.site-footer__btn {
+  width: 100%;
+  max-width: 260px;
+  padding: 12px 20px;
+  background-color: #ea625c;
+  border: none;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 150%;
+  text-align: center;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+
 @media only screen and (max-width: 520px) {
   .site-footer {
     padding-top: 96px;
@@ -730,6 +790,10 @@ img {
   }
   .site-footer__btn {
     max-width: 190px;
+    max-width: 190px;
+    padding: 9.5px;
+    font-size: 14px;
+    line-height: 21px;
   }
 }
 /*# sourceMappingURL=main.css.map */
