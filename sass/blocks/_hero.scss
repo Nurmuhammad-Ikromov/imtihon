@@ -1,0 +1,85 @@
+.site-main {
+}
+.hero {
+	position: relative;
+	padding: 140px 0 185px;
+    border-bottom: 2px solid #DDDDDD;
+	&::after {
+		content: '';
+		position: absolute;
+		top: 52px;
+		left: calc(50% + 230px);
+		width: 587px;
+		height: 565px;
+		background-image: url('../../images/hero-bgi.png');
+		background-repeat: no-repeat;
+		background-size: contain;
+	}
+}
+
+.hero__inner {
+	width: 100%;
+	max-width: 500px;
+}
+.hero__title {
+	font-weight: 700;
+	font-size: 50px;
+	line-height: 120%;
+	color: #000;
+	margin: 0;
+	margin-bottom: 30px;
+}
+.hero__text {
+	font-size: 16px;
+	line-height: 150%;
+	color: #777;
+	margin: 0;
+	margin-bottom: 30px;
+	padding-left: 40px;
+	border-left: 3px solid #888;
+}
+.hero__btn {
+	width: 100%;
+	max-width: 260px;
+	padding: 12px 20px;
+	background-color: #ea625c;
+	border: none;
+	font-weight: 700;
+	font-size: 18px;
+	line-height: 150%;
+	text-align: center;
+	text-transform: uppercase;
+	color: #ffffff;
+}
+
+@include max-width(520px) {
+	.hero {
+		padding-top: 440px;
+	}
+	.hero::after {
+		width: 290px;
+		height: 378px;
+		top: 30px;
+		background-image: url('../../images/intro-bg.jpg');
+		left: calc(50% - 101px);
+		background-size: cover;
+	}
+
+	.hero__inner {
+	}
+
+	.hero__title {
+		font-size: 46px;
+		line-height: 120%;
+	}
+    .hero__text{
+        font-size: 14px;
+    }
+
+    .hero__btn{
+        max-width: 190px;
+        padding: 9.5px ;
+        font-size: 14px;
+        line-height: 21px;
+    }
+}

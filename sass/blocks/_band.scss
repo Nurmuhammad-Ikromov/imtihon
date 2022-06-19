@@ -1,0 +1,33 @@
+
+.band__inner
+{
+    padding: 70px 0;
+    @include flex-starter;
+    justify-content: space-between;
+}
+.band__info
+{
+    width: 100%;
+    max-width: 490px;
+}
+
+.band__img{
+    width: 381px;
+    height: 572px;
+}
+
+
+@include max-width(520px)
+{
+    .band__inner
+    {
+        flex-direction: column-reverse;
+    }
+    .band__img{
+        width: 100%;
+        height: 80%;
+        border-radius: 20px;   
+        
+        margin-bottom: 41px;
+    }
+}
